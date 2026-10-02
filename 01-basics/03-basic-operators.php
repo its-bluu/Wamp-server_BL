@@ -11,13 +11,21 @@
     
 	<?php 
         //========== Arithmetic operators
-		
+		// + - / *
+		$a = 4;
+		$b = 5;
+		$a + $b;
 
+		$c = $a + $b;
+		$c = $a + 4;
+		echo $a + 4;
+
+		$a = $a + 1;
 
 
 		//========== Increment and decrement 
 		
-
+		$a--;
 
 
 		//========== Assignment (and string) operators
