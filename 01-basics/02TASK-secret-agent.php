@@ -16,11 +16,11 @@
         // Spare time? Style it with CSS!
 	    // ===========================================================
         
-        codename = "Willy";
-        age = 18;
-        favgadget = "nuclear bomb";
-        MissionStatus = True;
-        echo(codename, age, favgadget, MissionStatus)
+        $codename = "Willy";
+        $age = 18;
+        $favgadget = "nuclear bomb";
+        $MissionStatus = True;
+        echo($codename, $age, $favgadget, $MissionStatus)
 
 		// Time: 3-10 minutes
 		// Ready? Push to GIT!
