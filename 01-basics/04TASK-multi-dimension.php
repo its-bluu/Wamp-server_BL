@@ -11,7 +11,7 @@
     
 	<?php 
 		//========== 1. Make a multidimensional array
-
+        $stuff = [ ["Q1", "Q2", "Q3", "Q4"], [120, 150, 180, 210] ];
 
 
         //========== 2. Visualise some data from index 1 of the array you just created (don't just print)
@@ -20,7 +20,8 @@
 
         //========== 3. Add more data to the existing array
 
-
+        $stuff[0][] = "Q5";
+        $stuff[1][] = 250;
 
 		// Time: 5-15 minutes
 		// Record: Falco 3:23 (BINF, 2025)
