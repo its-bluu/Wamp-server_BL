@@ -15,7 +15,19 @@
 	// 2. Calculate the total price of the order, and how many slices each person gets if each pizza has 8 slices.
 	// 3. Echo out the results in a user-friendly way.
 	// ===========================================================
+	$pizzaAmount = 8;
+	$pPrice = 2;
+	$topPrice = 3;
+	$deliverFee = 2;
+	$topNum = 5;
+	$People = 8;
 
+	$netPrice = $pizzaAmount * $pPrice + ($pizzaAmount * ($topPrice * $topNum));
+	$brutPrice = $netPrice + $deliverFee;
+	$slicesPP = ($pizzaAmount * 8) / $People;
+	echo ("the netto is $netPrice"),"\r\n";
+	echo ("the brutto is $brutPrice"), "\r\n";
+	echo("there are $slicesPP slices per person"), "\r\n";
 
 	
 	// Time: ?
