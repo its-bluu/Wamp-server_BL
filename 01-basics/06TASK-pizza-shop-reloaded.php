@@ -8,7 +8,9 @@
 </head>
 
 <body>
-    
+	
+	
+
 	<?php 
 	    // ===========================================================
 		// Adapt the previous task (pizza shop) and remove any unnecessary variables. 
@@ -16,6 +18,19 @@
 		// When the form is submitted, calculate the total price and how many slices each person gets if each pizza has 8 slices.
 	    // ===========================================================
 		
+		$pizzaAmount = 8;
+		$pPrice = 2;
+		$topPrice = 3;
+		$deliverFee = 2;
+		$topNum = 5;
+		$People = 8;
+
+		$netPrice = $pizzaAmount * $pPrice + ($pizzaAmount * ($topPrice * $topNum));
+		$brutPrice = $netPrice + $deliverFee;
+		$slicesPP = ($pizzaAmount * 8) / $People;
+		echo ("the netto is $netPrice"),"\r\n";
+		echo ("the brutto is $brutPrice"), "\r\n";
+		echo("there are $slicesPP slices per person"), "\r\n";
 
 		
 
