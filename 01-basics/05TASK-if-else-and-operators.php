@@ -24,11 +24,11 @@
 			print false
 		)
 		//========== Else if
-		fish = 0;
-		if(fish == 5){
+		$fish = 0;
+		if($fish == 5){
 			console.log("5")
 		}
-		else if(fish == 4){
+		else if($fish == 4){
 			console.log("4")
 		}
 
