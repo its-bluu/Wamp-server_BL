@@ -16,6 +16,8 @@
 		// Return a string which mentions all rolled dice and gives a total. 
 	    // ===========================================================
 		
+		function rolldice(random(1,6));
+		echo rolldice();
 		
 
 		// Time: 5-12 minutes
