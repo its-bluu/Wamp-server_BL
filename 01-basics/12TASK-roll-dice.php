@@ -16,8 +16,22 @@
 		// Return a string which mentions all rolled dice and gives a total. 
 	    // ===========================================================
 		
-		function rolldice(random(1,6));
-		echo rolldice();
+		function rolldice($sides, $amount){
+			$totalammount = 0;
+			$returnstring = '';
+			$totalamountrolled = 0;
+
+			for ($i = 0; $i < $amount; $i++){
+				$rollamount = rand(1, $sides);
+				$totalamountrolled += $rollamount;
+				$returnstring .= "rolled 1D$amount, reslult: $rollamount <br>";
+			}
+
+			$returnstring .= "totalamount rolled: $totalamountrolled";
+			return $returnstring;
+		}
+		echo rolldice(6, 2);
+
 		
 
 		// Time: 5-12 minutes
