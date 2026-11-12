@@ -11,7 +11,20 @@
     
 	<?php 
         //========== While loops
-        
+        $a = 0;
+        while ($a <= 10) {
+            
+            
+            if ($a == 0) {
+                echo "dit is de " . $a + 1 .  "ste keer<br>";
+            }
+            else {
+                echo "dit is de " . $a + 1 . "de keer<br>";
+            }
+                
+            $a++;
+            // break;
+        }
 
         
 	?>

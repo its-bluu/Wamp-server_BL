@@ -11,13 +11,15 @@
     
 	<?php 
         //========== Loop through indexed array with foreach
+        $color = ["blue", "yellow", "red", "green"];
+        foreach ($color as $value) {
+            echo "<span style='color: $value;'>$value</span> <br>";
+        }
         
-
 
 
         //========== Loop through keyed array with foreach
         
-
 
 	?>
 

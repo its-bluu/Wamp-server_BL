@@ -11,7 +11,16 @@
     
 	<?php 
 		//========== For loops
-        
+        for ($i=0; $i <= 4; $i++) { 
+            
+            if ($i == 0) {
+                echo "dit is de " . $i + 1 .  "ste keer<br>";
+            }
+            else {
+                echo "dit is de " . $i + 1 . "de keer<br>";
+            }
+            
+        }
 
 
 
