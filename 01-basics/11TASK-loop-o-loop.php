@@ -18,13 +18,25 @@
 		// Voeg een beetje leuke wiskunde toe: geef elke persoon een willekeurig "fun level" tussen 1-6 (Elke waarde heeft een andere betekenis) en echo dit naast hun naam. Bvb: "Alice is screaming!", "Bob is holding on tight!"
 		// ===========================================================
 		$cookie = ["cookie1", "cookie2", "cookie3", "cookie4", "cookie5", "cookie6", "cookie7", "cookie8" ];
-        foreach ($cookie as $riders) {
-            echo $riders;
-        }
+        $funlvl = [
+			"diabolical",
+			"erg",
+			"meh",
+			"ok",
+			"goed",
+			"happy",
+		];
+				
+		for ($i=0; $i < 3; $i++) {
+			echo "rit $i vetrekt <br>";
+
+			foreach ($cookie as $key => $b) {
+				$randomfunlvl = rand(0, 5);
+				echo "$b zit in de wagon en vind het $funlvl[$randomfunlvl] <br>";
+			}
+		}
 		
-		while a /= 4
-		
-		
+
 		// Time: 8-20 minutes
 		// Record: 18:24 Jasper (BINF, 2025)
 		// Ready? Upload to smartschool!
