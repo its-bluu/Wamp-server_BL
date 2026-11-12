@@ -17,12 +17,14 @@
 		// In elke ronde gebruik je een foreach loop om te echoën welke bezoekers in de attractie zitten:
 		// Voeg een beetje leuke wiskunde toe: geef elke persoon een willekeurig "fun level" tussen 1-6 (Elke waarde heeft een andere betekenis) en echo dit naast hun naam. Bvb: "Alice is screaming!", "Bob is holding on tight!"
 		// ===========================================================
+		$cookie = ["cookie1", "cookie2", "cookie3", "cookie4", "cookie5", "cookie6", "cookie7", "cookie8" ];
+        foreach ($cookie as $riders) {
+            echo $riders;
+        }
 		
-
-
-
+		while a /= 4
 		
-
+		
 		// Time: 8-20 minutes
 		// Record: 18:24 Jasper (BINF, 2025)
 		// Ready? Upload to smartschool!

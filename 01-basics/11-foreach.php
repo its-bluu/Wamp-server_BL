@@ -16,8 +16,13 @@
             echo "<span style='color: $value;'>$value</span> <br>";
         }
         
-
-
+        foreach ($color as $value) {
+            
+        }
+        
+        foreach ($color as $key => $value) {
+            
+        }
         //========== Loop through keyed array with foreach
         
 
