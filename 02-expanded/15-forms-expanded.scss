@@ -1,0 +1,85 @@
+form{
+    padding: 20px;
+    margin: 50px;
+    background-color: bisque;
+    border: 4px dashed rgb(177, 86, 6);
+}
+
+.formfield{
+    display: block;
+    margin-bottom: 20px;
+}
+
+label{
+
+}
+
+.textLabel{
+    /* text-transform: uppercase; */
+    font-weight: bold;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    display: block;
+    background-color: rgb(177, 86, 6);
+    padding: 7px 10px;
+    padding-left: 20px;
+    margin-left: -24px;
+    margin-bottom: 15px;
+}
+
+input[type=text]{
+    border: none;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(177, 86, 6);
+    border: 3px solid white;
+
+    &:focus{
+        border: 3px solid rgb(177, 86, 6);
+        outline: none;
+    }
+}
+
+input[type=radio], input[type=checkbox]{
+    display: none;
+
+    & + label{
+        border: 3px solid rgb(177, 86, 6);
+        color: rgb(177, 86, 6);
+        padding: 3px 8px;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 18px;
+        background-color: white;
+        cursor: pointer;
+    }
+
+    &:checked + label{
+        background-color: rgb(177, 86, 6);
+        color: white;
+    }
+}
+
+select{
+    border: 3px solid rgb(177, 86, 6);
+    color: rgb(177, 86, 6);
+    padding: 3px 8px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+input[type=submit]{
+    border: 3px solid rgb(177, 86, 6);
+    background-color: rgb(177, 86, 6);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+}
