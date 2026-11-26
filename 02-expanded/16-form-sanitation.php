@@ -25,7 +25,6 @@
 
 	<?php 
 		//========== Sanitize user input. 2 methods
-		htmlentities($_POST['username']);
 
 		
 	?>

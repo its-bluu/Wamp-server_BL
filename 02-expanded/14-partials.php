@@ -10,18 +10,18 @@
     
 	<?php 
 		//========== include
-		// include '../functions.php';
+		
 
 		//========== require
-		// require '../functions.php';
+		
 		
 		//========== include_once
-		// include_once '../functions.php';
+		
 
 		//========== require_once
-		require_once '../functions.php';
+		
 
-		trace('hello is it me you\'re looking for');
+		
 		
 	?>
 

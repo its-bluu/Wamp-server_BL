@@ -12,15 +12,11 @@
     
 	<?php 
 		//========== Hashing (data encoderen)
-        $password = 'hunter34';
-        $hashedPassword = hash('sha512', $password);
-        trace($hashedPassword);
+
 
 
 		//========== Salting (een stukje data toevoegen pre-hash om de encodering veiliger te maken)
-        $salt = 'sdfaoiihjasfopjsdhafpojahjsdpofh2389u4r89-237';
-        $hashedPassword = hash('sha512', $salt . $password);
-        trace($hashedPassword);
+		
 
 
 	?>

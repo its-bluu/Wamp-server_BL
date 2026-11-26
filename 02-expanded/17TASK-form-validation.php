@@ -33,26 +33,8 @@
 		// 4. make sure all data is safe before checking.
 		// 5. if any of these is incorrect, show an error message
 		// ===========================================================
-
-		// trace($_POST);
 		
-		if(isset($_POST['username'])){
 
-			if(!isset($_POST['username']) OR htmlentities($_POST['username']) == ''){
-				echo "Vul je naam in. <br>";
-			}else if(!ctype_alpha(htmlentities($_POST['username']))){
-				echo 'Je naam mag alleen alfabetische letters bevatten. <br>';
-			}
-
-			if(isset($_POST['age']) && htmlentities($_POST['age']) < 18){
-				echo 'Jij bent te jong hiervoor. <br>';
-			}
-
-			if(isset($_POST['email']) && !filter_var(htmlentities($_POST['email']), FILTER_VALIDATE_EMAIL)){
-				echo 'Gelieve een correct e-maildres in te vullen <br>';
-			}
-
-		}
 
 		
 		// Time: 20? minutes
